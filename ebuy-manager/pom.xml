@@ -7,9 +7,7 @@
 		<artifactId>ebuy-parent</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
-	<groupId>com.paper</groupId>
 	<artifactId>ebuy-manager</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
 	<modules>
 		<module>ebuy-manager-pojo</module>
