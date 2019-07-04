@@ -2,10 +2,11 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>com.paper</groupId>
+	<groupId>com.igeek</groupId>
 	<artifactId>ebuy-parent</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
+
 	<!-- 集中定义依赖版本号 -->
 	<properties>
 		<junit.version>4.12</junit.version>
@@ -223,8 +224,10 @@
 				<artifactId>freemarker</artifactId>
 				<version>${freemarker.version}</version>
 			</dependency>
+
 		</dependencies>
 	</dependencyManagement>
+
 	<build>
 		<finalName>${project.artifactId}</finalName>
 		<plugins>
@@ -260,4 +263,5 @@
 			</plugins>
 		</pluginManagement>
 	</build>
+
 </project>

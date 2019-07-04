@@ -3,7 +3,7 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
-		<groupId>com.paper</groupId>
+		<groupId>com.igeek</groupId>
 		<artifactId>ebuy-parent</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
@@ -16,6 +16,7 @@
 		<module>ebuy-manager-service</module>
 		<module>ebuy-manager-web</module>
 	</modules>
+
 	<!-- 配置tomcat插件 -->
 	<build>
 		<plugins>
@@ -25,8 +26,9 @@
 				<configuration>
 					<port>80</port>
 					<path>/</path>
-				</configuration>          
+				</configuration>
 			</plugin>
 		</plugins>
 	</build>
+
 </project>

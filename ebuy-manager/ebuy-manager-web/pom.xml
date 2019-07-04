@@ -3,35 +3,36 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
-		<groupId>com.paper</groupId>
+		<groupId>com.igeek</groupId>
 		<artifactId>ebuy-manager</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
 	<artifactId>ebuy-manager-web</artifactId>
 	<packaging>war</packaging>
 	<dependencies>
-		<!-- 依赖 service -->
+		<!-- 依赖service -->
 		<dependency>
-			<groupId>com.paper</groupId>
+			<groupId>com.igeek</groupId>
 			<artifactId>ebuy-manager-service</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
 		<!-- JSP相关 -->
-			<dependency>
-				<groupId>jstl</groupId>
-				<artifactId>jstl</artifactId>
-			</dependency>
-			<dependency>
-				<groupId>javax.servlet</groupId>
-				<artifactId>servlet-api</artifactId>
-				<scope>provided</scope>
-			</dependency>
-			<dependency>
-				<groupId>javax.servlet</groupId>
-				<artifactId>jsp-api</artifactId>
-				<scope>provided</scope>
-			</dependency>
-			<!-- Spring -->
+		<dependency>
+			<groupId>jstl</groupId>
+			<artifactId>jstl</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>servlet-api</artifactId>
+			<scope>provided</scope>
+		</dependency>
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>jsp-api</artifactId>
+			<scope>provided</scope>
+		</dependency>
+		
+		<!-- Spring -->
 			<dependency>
 				<groupId>org.springframework</groupId>
 				<artifactId>spring-context</artifactId>
@@ -59,6 +60,12 @@
 			<dependency>
 				<groupId>org.springframework</groupId>
 				<artifactId>spring-context-support</artifactId>
+			</dependency>
+			
+			<!-- Jackson Json处理工具包 -->
+			<dependency>
+				<groupId>com.fasterxml.jackson.core</groupId>
+				<artifactId>jackson-databind</artifactId>
 			</dependency>
 	</dependencies>
 </project>
